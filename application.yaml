@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: CONIG-SERVER  
 #Registering the service to Eureka server
 eureka:
   instance:
