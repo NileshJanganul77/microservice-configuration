@@ -1,1 +1,10 @@
+#Registering the service to Eureka server
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:9092/eureka
+    register-with-eureka: true
+    fetch-registry: true 
 
