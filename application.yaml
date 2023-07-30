@@ -1,6 +1,6 @@
 spring:
   application:
-    name: CONIG-SERVER  
+    name: CONIG-SERVER-DEFAULT  
 #Registering the service to Eureka server
 eureka:
   instance:
